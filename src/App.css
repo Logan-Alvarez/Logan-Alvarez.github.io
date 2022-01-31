@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+:root {
+  --primary-color: #343a40;
+  --secondary-color: #ff8800;
+  --nav-links-color: #ced4da;
+  --text-color: #adb5bd;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1,
+h2 {
+  letter-spacing: 3px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  text-decoration: none;
+  color: var(--nav-links-color);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h2:hover {
+  transform: scale(1.2);
+}
+
+/* Navigation */
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Bebas Neue", cursive;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  list-style-type: none;
+  background-color: var(--primary-color);
+}
+
+/* Banner page */
+.Banner {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bebas Neue", cursive;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.banner-list {
+  list-style-type: none;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-around;
+}
+
+/* ABOUT */
+
+.About {
+  height: 100vh;
+  background-color: var(--primary-color);
+  text-align: center;
+  color: var(--text-color);
+  letter-spacing: 2px;
+}
+
+.About h3 {
+  color: var(--secondary-color);
+  margin-bottom: 5px;
+}
+
+.About p {
+  margin-top: 5px;
+}
+
+.image-container {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+img {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 0 8px 4px #6c757d;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.About section {
+  margin: 0 20px;
 }
