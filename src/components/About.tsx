@@ -1,10 +1,12 @@
+import Footer from "./Footer";
+
 function About() {
   return (
     <div className="About">
       <div className="image-container">
         <img src="headshot.jpg" alt="Picture of Logan" />
       </div>
-      <section>
+      <section className="About-me">
         <h3>Hi, I'm Logan. Nice to meet you.</h3>
         <p>
           My past experience has lead me to embark on a new journey of web
@@ -14,7 +16,7 @@ function About() {
           of the trade.
         </p>
       </section>
-      <section>
+      <section className="About-me">
         <h3>More of ME.</h3>
         <p>
           I'd like to share some of my personal interest outside of work. I find

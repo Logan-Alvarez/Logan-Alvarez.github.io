@@ -1,3 +1,5 @@
+import Footer from "./Footer";
+
 function Banner() {
   return (
     <div className="Banner">
