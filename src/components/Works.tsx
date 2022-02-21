@@ -5,12 +5,14 @@ function Works() {
   const [hidden2, setHidden2] = useState<boolean>(true);
   const [hidden3, setHidden3] = useState<boolean>(true);
   const [hidden4, setHidden4] = useState<boolean>(true);
+  const [hidden5, setHidden5] = useState<boolean>(true);
 
   function triggerHidden1() {
     setHidden1(false);
     setHidden2(true);
     setHidden3(true);
     setHidden4(true);
+    setHidden5(true);
   }
 
   function triggerHidden2() {
@@ -18,20 +20,30 @@ function Works() {
     setHidden1(true);
     setHidden3(true);
     setHidden4(true);
+    setHidden5(true);
   }
   function triggerHidden3() {
     setHidden3(false);
     setHidden1(true);
     setHidden2(true);
     setHidden4(true);
+    setHidden5(true);
   }
   function triggerHidden4() {
     setHidden4(false);
     setHidden1(true);
     setHidden2(true);
     setHidden3(true);
+    setHidden5(true);
   }
 
+  function triggerHidden5() {
+    setHidden5(false);
+    setHidden1(true);
+    setHidden2(true);
+    setHidden3(true);
+    setHidden4(true);
+  }
   return (
     <div className="Works">
       <div className="work-container" onClick={triggerHidden1}>
@@ -97,6 +109,24 @@ function Works() {
             <p>
               Better than Disney was our first group project within React. We
               pulled from TMD API for movie data.
+            </p>
+          )}
+        </article>
+      </div>
+      <div className="work-container" onClick={triggerHidden5}>
+        <div className="work-image-container">
+          <img src="socialspark.jpg" alt="" className="works-img" />
+        </div>
+        <article>
+          <p className="work-paragraph">
+            <a href="">Code</a> | <a href="">Live</a>
+          </p>
+          <h4 className="work-title">Social Spark App!</h4>
+          {hidden5 ? null : (
+            <p>
+              Social Spark was our final project. We created this app to help
+              those that struggle in social situations so it's packed with
+              trivia questions, jokes, and icebreakers.
             </p>
           )}
         </article>
