@@ -3,7 +3,7 @@ function Tools() {
     <div className="Tools">
       <div className="Tool-containers">
         <header>
-          <h2>Design</h2>
+          <h2 className="tool-header">Design</h2>
         </header>
         <p>
           I strive to make simple yet elegant desings that give a pleasant user
@@ -18,7 +18,7 @@ function Tools() {
       </div>
       <div className="Tool-containers">
         <header>
-          <h2>Front-End Development</h2>
+          <h2 className="tool-header">Front-End Development</h2>
         </header>
         <p>
           I've only every created websites/applications from the ground up. I

@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="About">
       <div className="image-container">
-        <img src="headshot.jpg" alt="Picture of Logan" />
+        <img src="headshot.jpg" alt="Picture of Logan" className="pic-of-me" />
       </div>
       <section className="About-me">
         <h3>Hi, I'm Logan. Nice to meet you.</h3>
