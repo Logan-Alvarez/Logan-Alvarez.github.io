@@ -110,7 +110,35 @@ img {
 /*TOOLS*/
 
 .Tools {
-  height: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  color: var(--text-color);
+  position: relative;
+}
+
+.Tool-containers {
+  border-radius: 5px;
+  box-shadow: 0 0 4px 2px #6c757d;
+  font-size: large;
+  font-weight: 600;
+  background-color: #495057;
+  width: 75%;
+  margin: 15px 0;
+}
+
+.Tool-containers h3 {
+  color: var(--secondary-color);
+}
+
+.tool-list {
+  padding-left: 0;
+}
+.tool-list li {
+  list-style: none;
 }
 
 /* FOOTER */
