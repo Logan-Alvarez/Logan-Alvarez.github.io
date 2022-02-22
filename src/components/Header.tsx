@@ -5,6 +5,11 @@ function Header() {
     <div className="Header">
       <ul className="nav-links">
         <li>
+          <Link to={"/"}>
+            <h2>Home</h2>
+          </Link>
+        </li>
+        <li>
           <Link to={"/about"}>
             <h2>About</h2>
           </Link>
