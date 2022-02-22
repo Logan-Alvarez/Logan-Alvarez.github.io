@@ -118,7 +118,7 @@ function Works() {
           <img src="socialspark.jpg" alt="" className="works-img" />
         </div>
         <article>
-          <p>
+          <p className="work-paragraph">
             <a href="">Code</a> | <a href="">Live</a>
           </p>
           <h4 className="work-title">Social Spark App!</h4>

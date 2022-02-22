@@ -190,6 +190,16 @@ a {
 
 .work-paragraph {
   margin: 0;
+  color: #ced4da;
+}
+.work-paragraph a {
+  font-size: large;
+  font-weight: bold;
+  color: #ced4da;
+}
+
+.work-paragraph a:hover {
+  color: #ff8800;
 }
 .work-title {
   color: #ff8800;
