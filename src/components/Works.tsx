@@ -118,12 +118,12 @@ function Works() {
           <img src="socialspark.jpg" alt="" className="works-img" />
         </div>
         <article>
-          <p className="work-paragraph">
+          <p>
             <a href="">Code</a> | <a href="">Live</a>
           </p>
           <h4 className="work-title">Social Spark App!</h4>
           {hidden5 ? null : (
-            <p>
+            <p className="work-paragraph">
               Social Spark was our final project. We created this app to help
               those that struggle in social situations so it's packed with
               trivia questions, jokes, and icebreakers.

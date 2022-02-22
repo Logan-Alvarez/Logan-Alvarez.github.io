@@ -6,7 +6,7 @@ function Footer() {
       <ul className="nav-personals">
         <li>
           <a href="https://github.com/Logan-Alvarez" target={"_blank"}>
-            <img src="github.svg" alt="Github logo" />
+            <i className="bi bi-github"></i>
           </a>
         </li>
         <li>
@@ -14,7 +14,7 @@ function Footer() {
             href="https://www.linkedin.com/in/logan-alvarez/"
             target={"_blank"}
           >
-            <img src="linkedIn.svg" alt="LinkedIn Logo" />
+            <i className="bi bi-linkedin"></i>
           </a>
         </li>
       </ul>
