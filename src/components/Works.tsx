@@ -50,7 +50,16 @@ function Works() {
         <img src="icecream.jpg" alt="" className="works-img" />
         <article>
           <p className="work-paragraph">
-            <a href="">Code</a> | <a href="">Live</a>
+            <a
+              href="https://github.com/Logan-Alvarez/Alvarez-part-1"
+              target={"_blank"}
+            >
+              Code
+            </a>{" "}
+            |{" "}
+            <a href="" target={"_blank"}>
+              Live
+            </a>
           </p>
           <h4 className="work-title">Coffee, Cream and Cookies!</h4>
           {hidden1 ? null : (
@@ -68,7 +77,16 @@ function Works() {
         </div>
         <article>
           <p className="work-paragraph">
-            <a href="">Code</a> | <a href="">Live</a>
+            <a
+              href="https://github.com/Logan-Alvarez/react-lab2-socialPosts"
+              target={"_blank"}
+            >
+              Code
+            </a>{" "}
+            |{" "}
+            <a href="" target={"_blank"}>
+              Live
+            </a>
           </p>
           <h4 className="work-title">Social Posts</h4>
           {hidden4 ? null : (
@@ -84,7 +102,16 @@ function Works() {
         <img src="Giphyapp.jpg" alt="" className="works-img" />
         <article>
           <p className="work-paragraph">
-            <a href="">Code</a> | <a href="">Live</a>
+            <a
+              href="https://github.com/Logan-Alvarez/Giphy-App"
+              target={"_blank"}
+            >
+              Code
+            </a>{" "}
+            |{" "}
+            <a href="" target={"_blank"}>
+              Live
+            </a>
           </p>
           <h4 className="work-title">Giphy App!</h4>
           {hidden2 ? null : (
@@ -102,7 +129,16 @@ function Works() {
         </div>
         <article>
           <p className="work-paragraph">
-            <a href="">Code</a> | <a href="">Live</a>
+            <a
+              href="https://github.com/stovet/movie-group-project"
+              target={"_blank"}
+            >
+              Code
+            </a>{" "}
+            |{" "}
+            <a href="" target={"_blank"}>
+              Live
+            </a>
           </p>
           <h4 className="work-title">Better than Disney App!</h4>
           {hidden3 ? null : (
@@ -119,7 +155,16 @@ function Works() {
         </div>
         <article>
           <p className="work-paragraph">
-            <a href="">Code</a> | <a href="">Live</a>
+            <a
+              href="https://github.com/Logan-Alvarez/final-project"
+              target={"_blank"}
+            >
+              Code
+            </a>{" "}
+            |{" "}
+            <a href="" target={"_blank"}>
+              Live
+            </a>
           </p>
           <h4 className="work-title">Social Spark App!</h4>
           {hidden5 ? null : (
