@@ -47,7 +47,7 @@ function Works() {
   return (
     <div className="Works">
       <div className="work-container" onClick={triggerHidden1}>
-        <img src="icecream.jpg" alt="" className="works-img" />
+        <img src="icecream.JPG" alt="" className="works-img" />
         <article>
           <p className="work-paragraph">
             <a
@@ -73,7 +73,7 @@ function Works() {
       </div>
       <div className="work-container" onClick={triggerHidden4}>
         <div className="work-image-container">
-          <img src="Socialposts.jpg" alt="" className="works-img" />
+          <img src="Socialposts.JPG" alt="" className="works-img" />
         </div>
         <article>
           <p className="work-paragraph">
@@ -99,7 +99,7 @@ function Works() {
         </article>
       </div>
       <div className="work-container" onClick={triggerHidden2}>
-        <img src="Giphyapp.jpg" alt="" className="works-img" />
+        <img src="Giphyapp.JPG" alt="" className="works-img" />
         <article>
           <p className="work-paragraph">
             <a
@@ -125,7 +125,7 @@ function Works() {
       </div>
       <div className="work-container" onClick={triggerHidden3}>
         <div className="work-image-container">
-          <img src="Disneywork.jpg" alt="" className="works-img" />
+          <img src="Disneywork.JPG" alt="" className="works-img" />
         </div>
         <article>
           <p className="work-paragraph">
@@ -151,7 +151,7 @@ function Works() {
       </div>
       <div className="work-container" onClick={triggerHidden5}>
         <div className="work-image-container">
-          <img src="socialspark.jpg" alt="" className="works-img" />
+          <img src="socialspark.JPG" alt="" className="works-img" />
         </div>
         <article>
           <p className="work-paragraph">
