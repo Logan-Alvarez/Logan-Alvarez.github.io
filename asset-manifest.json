@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Logan-Alvarez.github.io/static/css/main.5c484e2e.css",
-    "main.js": "/Logan-Alvarez.github.io/static/js/main.b648cfa7.js",
-    "static/js/787.590f7fee.chunk.js": "/Logan-Alvarez.github.io/static/js/787.590f7fee.chunk.js",
-    "index.html": "/Logan-Alvarez.github.io/index.html",
-    "main.5c484e2e.css.map": "/Logan-Alvarez.github.io/static/css/main.5c484e2e.css.map",
-    "main.b648cfa7.js.map": "/Logan-Alvarez.github.io/static/js/main.b648cfa7.js.map",
-    "787.590f7fee.chunk.js.map": "/Logan-Alvarez.github.io/static/js/787.590f7fee.chunk.js.map"
+    "main.css": "/static/css/main.5c484e2e.css",
+    "main.js": "/static/js/main.bb2723f3.js",
+    "static/js/787.590f7fee.chunk.js": "/static/js/787.590f7fee.chunk.js",
+    "index.html": "/index.html",
+    "main.5c484e2e.css.map": "/static/css/main.5c484e2e.css.map",
+    "main.bb2723f3.js.map": "/static/js/main.bb2723f3.js.map",
+    "787.590f7fee.chunk.js.map": "/static/js/787.590f7fee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c484e2e.css",
-    "static/js/main.b648cfa7.js"
+    "static/js/main.bb2723f3.js"
   ]
 }
