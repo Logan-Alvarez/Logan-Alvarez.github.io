@@ -81,7 +81,7 @@ function Works() {
         <article>
           <p className="work-paragraph">
             <a
-              href="https://github.com/Logan-Alvarez/react-lab2-socialPosts"
+              href="https://logan-alvarez.github.io/react-lab2-socialPosts/"
               target={"_blank"}
             >
               Code
