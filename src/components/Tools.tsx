@@ -21,7 +21,7 @@ function Tools() {
           <h2 className="tool-header">Front-End Development</h2>
         </header>
         <p>
-          I've only every created websites/applications from the ground up. I
+          I've only ever created websites/applications from the ground up. I
           enjoy a good challenge, and pushing the limits of what I can create.
         </p>
         <h3>Languages I use</h3>
