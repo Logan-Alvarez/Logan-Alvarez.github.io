@@ -180,7 +180,7 @@ function Works() {
           </p>
           <h4 className="work-title">Social Spark App!</h4>
           {hidden5 ? null : (
-            <p className="work-paragraph">
+            <p>
               Social Spark was our final project. We created this app to help
               those that struggle in social situations so it's packed with
               trivia questions, jokes, and icebreakers.
