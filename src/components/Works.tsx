@@ -57,7 +57,10 @@ function Works() {
               Code
             </a>{" "}
             |{" "}
-            <a href="" target={"_blank"}>
+            <a
+              href="https://logan-alvarez.github.io/Alvarez-part-1/"
+              target={"_blank"}
+            >
               Live
             </a>
           </p>
@@ -109,7 +112,10 @@ function Works() {
               Code
             </a>{" "}
             |{" "}
-            <a href="" target={"_blank"}>
+            <a
+              href="https://logan-alvarez.github.io/Giphy-App/"
+              target={"_blank"}
+            >
               Live
             </a>
           </p>
@@ -162,7 +168,10 @@ function Works() {
               Code
             </a>{" "}
             |{" "}
-            <a href="" target={"_blank"}>
+            <a
+              href="https://final-project-backend-fbdd5.web.app/"
+              target={"_blank"}
+            >
               Live
             </a>
           </p>
