@@ -81,13 +81,16 @@ function Works() {
         <article>
           <p className="work-paragraph">
             <a
-              href="https://logan-alvarez.github.io/react-lab2-socialPosts/"
+              href="https://github.com/Logan-Alvarez/react-lab2-socialPosts"
               target={"_blank"}
             >
               Code
             </a>{" "}
             |{" "}
-            <a href="" target={"_blank"}>
+            <a
+              href="https://logan-alvarez.github.io/react-lab2-socialPosts/"
+              target={"_blank"}
+            >
               Live
             </a>
           </p>
